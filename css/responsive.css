@@ -80,22 +80,24 @@
 
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .hero-logo img {
-    width: 110px;
+    width: 180px;
   }
 }
 
-
 @media (max-width: 767px) {
   .hero-logo img {
-    width: 110px;
+    width: 140px;
   }
+}
+
 
   .coming-soon-badge {
     font-size: 11px;
     padding: 5px 14px;
   }
 }
+
 
 

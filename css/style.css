@@ -132,7 +132,14 @@ a:focus {
   padding-left: 25px;
 }
 
-.navbar-brand span {
+/* Navbar logo styling */
+.navbar-logo {
+  height: 40px;        /* perfect size */
+  width: auto;
+  margin-right: 10px; /* space between logo & text */
+}
+
+.brand-text {
   color: #ffffff;
   font-size: 24px;
   text-transform: uppercase;

@@ -927,17 +927,6 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 
-/* Hero logo styling */
-.hero-logo {
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.hero-logo img {
-  width: 140px;        /* BIG logo */
-  max-width: 40%;
-  height: auto;
-}
 
 
 
@@ -950,23 +939,25 @@ a:focus {
 
 /* Logo with brand glow + animation */
 .hero-logo img {
-  width: 140px;
-  max-width: 40%;
+  width: 220px;          /* BIG desktop logo */
+  max-width: 70%;
   height: auto;
 
-  /* Brand color glow (blue + green mix) */
-  filter: drop-shadow(0 0 12px rgba(21, 82, 99, 0.6))
-          drop-shadow(0 0 22px rgba(0, 200, 150, 0.35));
+  /* Brand glow */
+  filter: drop-shadow(0 0 18px rgba(21, 82, 99, 0.65))
+          drop-shadow(0 0 35px rgba(0, 200, 150, 0.45));
 
   animation: logoFadeIn 1.2s ease-out forwards;
   opacity: 0;
 }
 
+
 /* Coming Soon badge */
 .coming-soon-badge {
-  display: inline-block;
-  margin-top: 12px;
-  padding: 6px 18px;
+  margin-top: 16px;
+  font-size: 13px;
+  padding: 7px 22px;
+
 
   font-size: 12px;
   font-weight: 600;

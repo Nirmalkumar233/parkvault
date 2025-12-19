@@ -934,29 +934,33 @@ a:focus {
 
 .hero-logo {
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 55px;
 }
+
 
 /* Logo with brand glow + animation */
 .hero-logo img {
-  width: 300px;          /* BIG desktop logo */
-  max-width: 80%;
+  width: 320px;          /* VERY BIG on desktop */
+  max-width: 85%;
   height: auto;
 
-  /* Brand glow */
-  filter: drop-shadow(0 0 18px rgba(21, 82, 99, 0.65))
-          drop-shadow(0 0 35px rgba(0, 200, 150, 0.45));
+  /* Strong brand glow */
+  filter: 
+    drop-shadow(0 0 25px rgba(21, 82, 99, 0.7))
+    drop-shadow(0 0 55px rgba(0, 200, 150, 0.55));
 
-  animation: logoFadeIn 1.2s ease-out forwards;
+  animation: logoFadeIn 1.3s ease-out forwards;
   opacity: 0;
 }
 
 
+
 /* Coming Soon badge */
 .coming-soon-badge {
-  margin-top: 16px;
-  font-size: 13px;
-  padding: 7px 22px;
+  margin-top: 20px;
+  font-size: 14px;
+  padding: 8px 26px;
+
 
 
   font-size: 12px;

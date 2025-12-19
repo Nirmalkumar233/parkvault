@@ -925,3 +925,17 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Hero logo styling */
+.hero-logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.hero-logo img {
+  width: 140px;        /* BIG logo */
+  max-width: 40%;
+  height: auto;
+}
+
